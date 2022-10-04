@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
   margin: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; }
 
 ::-webkit-scrollbar {
   background-color: transparent;
@@ -24,8 +26,10 @@ body {
     align-items: center;
     margin-top: 40px; }
     body .container h1 {
-      letter-spacing: 2px;
-      color: blueviolet; }
+      letter-spacing: 4px;
+      color: blueviolet;
+      font-size: 50px;
+      animation: shake .8s ease-in infinite; }
     body .container label {
       border: 1px solid white;
       padding: 10px 30px;
@@ -41,3 +45,9 @@ body {
     body .container #wrapper {
       margin-top: 40px;
       margin-bottom: 40px; }
+  body footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px; }
+
+@keyframes shake {}
